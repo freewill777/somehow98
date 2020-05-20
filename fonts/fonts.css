@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poiret_oneregular';
+    src: url('poiretone-regular-webfont.woff2') format('woff2'),
+         url('poiretone-regular-webfont.woff') format('woff'),
+         url('poiretone-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'fredoka_oneregular';
+    src: url('fredokaone-regular-webfont.woff2') format('woff2'),
+         url('fredokaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'didotmedium';
+    src: url('didot-htf-m16-medium-webfont.woff2') format('woff2'),
+         url('didot-htf-m16-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pinyon_scriptregular';
+    src: url('pinyonscript-regular-webfont.woff2') format('woff2'),
+         url('pinyonscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'grupporegular';
+    src: url('gruppo-regular-webfont.woff2') format('woff2'),
+         url('gruppo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'megrimmedium';
+    src: url('megrim-regular-webfont.woff2') format('woff2'),
+         url('megrim-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'space_monoregular';
+    src: url('spacemono-regular-webfont.woff2') format('woff2'),
+         url('spacemono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.poiret {
+	font-family: 'poiret_oneregular';
+}
+.fredoka {
+	font-family: 'fredoka_oneregular';
+}
+.didot {
+	font-family: 'didotmedium';
+}
+.pinyon {
+	font-family: 'pinyon_scriptregular';
+}
+.gruppo {
+	font-family: 'grupporegular';
+}
+.megrim {
+	font-family: 'megrimmedium';
+}
+.space_monoregular {
+	font-family: 'space_monoregular';
+}

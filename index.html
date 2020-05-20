@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>octarine</title>
+   <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+   <link rel="stylesheet" type="text/css" href="assets/style.css">
+   <link rel="stylesheet" type="text/css" href="assets/bg.css">
+</head>
+
+<body onload="bgLoader()">
+
+   <div id="loader"></div>
+
+   <div class="animate-bottom">
+      <audio id="channel-one">
+         <source src="http://octarine.icu/player.php" type="audio/mpeg">
+         Your browser does not support the audio element.</audio>
+   
+       <audio id="channel-two">
+         <source src="http://octarine.icu/player-feel.php" type="audio/mpeg">
+         Your browser does not support the audio element.</audio>
+   
+       <audio id="channel-three">
+         <source src="http://octarine.icu/player-chill.php" type="audio/mpeg">
+         Your browser does not support the audio element.</audio>
+   
+       <button id="btn1" onclick="playOne();initClr1()" type="button" class="gruppo">channel one</button>
+       <button id="btn2" onclick="playTwo();initClr2()" type="button" class="poiret">channel two</button>
+       <button id="btn3" onclick="playThree();initClr3()" type="button" class="megrim">channel three</button>
+       <button onclick="pauseAudio();initClr4()" type="button" class="poiret">pause</button>    
+   </div>  
+   <script src="assets\audioController.js"></script>
+   <script src="assets\bg.js"></script>
+</body>
+</html>

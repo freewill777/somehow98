@@ -1,0 +1,22 @@
+* {
+    margin:10px;
+}
+
+body {
+    background-size: cover;
+}
+
+button {
+    font-size: 35px;
+    background-color:black;
+    border: none;
+    cursor: grab;
+    color: #ffffff;
+}
+
+.redd {
+  color: #ffffff;
+  background-color: black;
+  border: none;
+  border-radius:50px;
+}
