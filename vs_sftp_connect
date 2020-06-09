@@ -1,0 +1,17 @@
+[
+	{
+		"name": "name",
+		"host": "XXX.XXX.XXX.XXX",
+		"port": 21,
+		"type": "ftp",
+		"username": "user",
+		"password": "pw",
+		"path": "/public_html",
+		"secure": true,
+		"secureOptions": {
+			"rejectUnauthorized": false
+		},
+		"autosave": true,
+		"confirm": true
+	}
+]
